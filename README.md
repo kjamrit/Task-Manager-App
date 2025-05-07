@@ -1,6 +1,6 @@
 # Task Manager
 
-A simple full-stack task manager app built with:
+A simple task manager app built with:
 
 - **Backend**: Node.js, Express, Sequelize ORM, MySQL
 - **Frontend**: ReactJS
@@ -18,7 +18,7 @@ A simple full-stack task manager app built with:
 
 ---
 
-## Screenshots
+## Screenshot
 
 *![alt text](image.png)*
 
@@ -37,9 +37,7 @@ npm install
 
 Create a .env file:
 
-```ini
-Copy
-Edit
+```bash
 DB_HOST=localhost
 DB_USER=your_mysql_user
 DB_PASSWORD=your_mysql_password
