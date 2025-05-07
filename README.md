@@ -65,4 +65,4 @@ Start the frontend:
 npm start
 ```
 
-The frontend runs on http://localhost:3000
+The application runs on http://localhost:3000
