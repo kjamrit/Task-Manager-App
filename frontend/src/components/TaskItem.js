@@ -34,6 +34,7 @@ const TaskItem = ({ task, onTaskUpdated, onTaskDeleted }) => {
     >
       <h3>{task.title}</h3>
       <p>{task.description}</p>
+      <p><small>Created on: {new Date(task.created_at).toLocaleString()}</small></p>
       <div>
         {!task.is_completed && (
           <button onClick={handleComplete}>Mark Completed</button>
